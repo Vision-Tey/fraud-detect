@@ -30,5 +30,3 @@ mongoose.connect(process.env.MONGO_URI)
     }).catch(err => {
         console.log(err);
     })
-
-    // mongodb+srv://fraudvi:<db_password>@fraud-det.dtkud.mongodb.net/?retryWrites=true&w=majority&appName=fraud-det
